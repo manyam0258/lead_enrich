@@ -1,0 +1,48 @@
+[
+  {
+    "doctype": "Custom Field",
+    "name": "Lead-linkedin_profile_url",
+    "dt": "Lead",
+    "fieldname": "linkedin_profile_url",
+    "label": "LinkedIn Profile URL",
+    "fieldtype": "Data",
+    "insert_after": "website"
+  },
+  {
+    "doctype": "Custom Field",
+    "name": "Lead-apollo_job_title",
+    "dt": "Lead",
+    "fieldname": "apollo_job_title",
+    "label": "Job Title (Apollo)",
+    "fieldtype": "Data",
+    "insert_after": "linkedin_profile_url"
+  },
+  {
+    "doctype": "Custom Field",
+    "name": "Lead-company_size",
+    "dt": "Lead",
+    "fieldname": "company_size",
+    "label": "Company Size (Apollo)",
+    "fieldtype": "Data",
+    "insert_after": "apollo_job_title"
+  },
+  {
+    "doctype": "Custom Field",
+    "name": "Lead-apollo_industry",
+    "dt": "Lead",
+    "fieldname": "apollo_industry",
+    "label": "Industry (Apollo)",
+    "fieldtype": "Data",
+    "insert_after": "company_size"
+  },
+  {
+    "doctype": "Custom Field",
+    "name": "Lead-apollo_enrichment_status",
+    "dt": "Lead",
+    "fieldname": "apollo_enrichment_status",
+    "label": "Apollo Enrichment Status",
+    "fieldtype": "Select",
+    "options": "\nNot Attempted\nFound\nNot Found\nError",
+    "insert_after": "industry"
+  }
+]
