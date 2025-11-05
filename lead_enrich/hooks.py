@@ -243,3 +243,10 @@ app_license = "gpl-3.0"
 # }
 
 fixtures = ["Custom Field"]
+doctype_js = {
+    "Lead": "public/js/lead_enrich.js"
+}
+
+doctype_list_js = {
+    "Lead": "public/js/lead_list.js"
+}

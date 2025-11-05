@@ -44,5 +44,15 @@
     "fieldtype": "Select",
     "options": "\nNot Attempted\nFound\nNot Found\nError",
     "insert_after": "industry"
+  },
+  {
+    "doctype": "Custom Field",
+    "name": "Lead-apollo_person_id",
+    "dt": "Lead",
+    "fieldname": "apollo_person_id",
+    "label": "Apollo Person ID",
+    "fieldtype": "Data",
+    "hidden": 1,
+    "insert_after": "apollo_industry"
   }
 ]
